@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+
+    --main:#ffb6c1;
+    --black:#130f40;
+    --pink:#e75480;
+    --light-color:#666;
+
+    --white:#fff;
+    --font_family: "Crimson Pro",serif;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+
+}
+*{
+    font-family: "Crimson Pro",serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color:var(--black);
+}
+.heading span{
+    background: var(--main);
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path:polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background:palevioletred;
+    box-shadow: var(--box-shadow);
+}
+
+.header .navbar h1{
+    font-size: 3rem;
+    margin:0 1rem;
+    align-items: center;
+    color:var(--black);
+}
+.box img{
+    height:65rem;
+    width: 1300px;;
+    object-fit: cover;
+}
+#btn{
+    margin-bottom: 0.5rem;
+
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+    border:.2rem solid #f83295;
+    color:var(--black);
+    cursor: pointer;
+    background: none;
+    position: absolute;
+}
+
+#btn:hover{
+    background: #f83295;
+    color:#fff;
+}

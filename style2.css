@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+
+    --main:#ffb6c1;
+    --black:#130f40;
+    --pink:#e75480;
+    --light-color:#666;
+
+    --white:#fff;
+    --font_family: "Crimson Pro",serif;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+
+}
+*{
+    font-family: "Crimson Pro",serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background: white;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #ffb6c1;
+    align-items: center;
+}
+
+section{
+    padding:2rem 9%;
+}
+.box1 img{
+    height:600px;
+    width:500px;
+    align-items: center;
+    object-fit: cover;
+    float: right;
+}
+.content h1{
+    font-size: 2rem;
+    margin:0 1rem;
+    float: left;
+    color:var(--black);
+}
+.content h1{
+    font-size: 3rem;
+    margin:0 1rem;
+    text-align: right;
+    float: left;
+    color:var(--black);
+}
+#btn{
+    margin-bottom: 5rem;
+ margin-top: 30rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+    border:.2rem solid #f83295;
+    color:var(--black);
+    cursor: pointer;
+    background: none;
+    position: absolute;
+}
+
+#btn:hover{
+    background: #f83295;
+    color:#fff;
+}
+.box2 h1{
+    font-size: 3rem;
+    margin:0 1rem;
+    text-align: top;
+    float: left;
+    color:var(--black);
+}
+.content a{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    margin:0 1rem;
+    text-align: top;
+    float: left;
+    color:var(--black);
+}
+
+
